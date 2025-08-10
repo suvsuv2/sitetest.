@@ -4,5 +4,5 @@
     { "src": "**/*.css", "dest": ".", "headers": {"content-type": ["text/css"]}},
     { "src": "**/*.js", "dest": ".", "headers": {"content-type": ["application/javascript"]}}
   ],
- 
+  "routes": [{ "src": "/.*", "dest": "/" }]
 }
